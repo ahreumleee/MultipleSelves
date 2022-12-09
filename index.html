@@ -6,19 +6,19 @@
     <title>Unity WebGL Player | MultipleSelves</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: url('Build/FINAL_09012022.jpg') center / cover"></canvas>
-    <script src="Build/FINAL_09012022.loader.js"></script>
+    <canvas id="unity-canvas" width=1920 height=1080 style="width: 1920px; height: 1080px; background: url('Build/2022_12_08.jpg') center / cover"></canvas>
+    <script src="Build/2022_12_08.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Build/FINAL_09012022.data",
-        frameworkUrl: "Build/FINAL_09012022.framework.js",
-        codeUrl: "Build/FINAL_09012022.wasm",
+        dataUrl: "Build/2022_12_08.data",
+        frameworkUrl: "Build/2022_12_08.framework.js",
+        codeUrl: "Build/2022_12_08.wasm",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "AhreumLee",
         productName: "MultipleSelves",
         productVersion: "0.1",
-        matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
-        devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
+        // matchWebGLToCanvasSize: false, // Uncomment this to separately control WebGL canvas render size and DOM element size.
+        // devicePixelRatio: 1, // Uncomment this to override low DPI rendering on high DPI displays.
       });
     </script>
   </body>
